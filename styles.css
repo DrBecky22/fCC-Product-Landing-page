@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {}
+  
+  body {
+    background-color: azure;
+  }
+  
+  h1, h3 {
+   font-family: Josefin slab, sans-serif;
+  }
+  
+  h2, h4, p, label {
+   font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
+    border: 3px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
+  
+  #header-img {
+    margin: .5em;
+    padding: 0;
+    width: 150px;
+  }
+  
+  /* .nav-bar {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  .nav-link {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 2rem;
+  
+  }
+  
+  .hero {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: gray;
+    background-image: url("https://media.istockphoto.com/photos/various-fresh-herbs-arranged-in-a-frame-picture-id1329380586");
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    text-align: center; 
+  }
+  
+  #title-text, #tagline {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0.5em
+  }
+  
+  h3 {
+  
+  }
+  
+  .form-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  #email {
+    font-size: 1.25em
+  }
+  
+  #submit {
+    background-color: #00b3b3;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  article {
+    text-align: left;
+  }
+  
+  .info-subheading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .info-text {
+    padding-bottom: 1.5rem;
+  }
+  
+  .section-img {
+    height: 600px;
+    width: auto;
+  }
+  
+  #catalog {
+    display: grid;
+    grid-template-columns: repeat 
+  }
+  
+  #video {
+    justify-contents: center;
+    padding-top: 25px;
+  }
+  navbar - fixed or sticky
+  use flexbox at least 1x
+  @media only screen and (at least 1)
+  @media only screen and (at least 1)
